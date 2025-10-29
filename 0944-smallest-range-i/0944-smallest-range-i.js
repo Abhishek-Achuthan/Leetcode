@@ -6,8 +6,6 @@
 var smallestRangeI = function (nums, k) {
     nums.sort((a,b) => a-b)
 
-    console.log(nums)
-
     let flmt = k;
 
     for (let i = 0; i < k; i++) {
@@ -18,17 +16,13 @@ var smallestRangeI = function (nums, k) {
         }
     }
     
-
-
     let max = nums[nums.length - 1];
     let limit = k;
-    for (let i = 0; i < limit; i++) {
+    for (let i = 0; i < k; i++) {
         if (max > nums[0] && limit > 0) {
             max--
         }
     }
-
-    console.log(nums[0], max)
     return max - nums[0];
 
 };
