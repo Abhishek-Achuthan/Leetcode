@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0944-smallest-range-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0944-smallest-range-i) |
+| [0978-valid-mountain-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0978-valid-mountain-array) |
 ## Math
 |  |
 | ------- |
