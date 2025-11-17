@@ -3,29 +3,23 @@
  * @return {boolean}
  */
 var validMountainArray = function(arr) {
+    if(arr.length<3) return false;
+    let lg = arr.length
     let max = Math.max(...arr);
-        let dec = false;
-    if (arr.length < 3) return false;
-
-    if (arr[0] > arr[1]) return false
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] === arr[i + 1]) {
-            return false;
-        } else if (arr[i] > arr[i + 1] && dec === false) {
-            dec = true;
-        } else if (arr[i] < arr[i + 1] && dec === true) {
-            return false;
+    let maxIndex = arr.indexOf(max)
+    if(maxIndex===0 || maxIndex===lg-1)return false;
+    if(max===arr[arr.length-1]) return false
+    let answer = true;
+    for(let i = 0 ; i<lg ; i++) {
+        if(i < maxIndex) {
+            if(arr[i+1]<=arr[i]) {
+                answer = false;
+            }
+        }else{
+            if(arr[i+1]>=arr[i]) {
+                answer = false;
+            }
         }
     }
-
-    if (dec === false) {
-        return false
-    }
-    return true
-
-
-
-
-
-
+    return answer;
 };
