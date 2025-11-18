@@ -10,7 +10,6 @@ var maxFreqSum = function(s) {
     let vowels = new Set(['a','e','i','o','u']);
     let maxVowel = 0;
     let maxConsonant = 0;
-
     for(const [ch,cnt] of Object.entries(hash)) {
         if(vowels.has(ch)) {
             if(cnt > maxVowel) maxVowel = cnt;
@@ -18,7 +17,6 @@ var maxFreqSum = function(s) {
             if(cnt > maxConsonant) maxConsonant = cnt;
         }
     }
-
     return maxVowel + maxConsonant;
 
 };
