@@ -20,4 +20,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1127-last-stone-weight](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1127-last-stone-weight) |
+## String
+|  |
+| ------- |
+| [0520-detect-capital](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0520-detect-capital) |
 <!---LeetCode Topics End-->
