@@ -11,7 +11,6 @@ var detectCapitalUse = function(word) {
         if(word.slice(1).toLowerCase()===word.slice(1)){
             return true;
         }
-        return false
     }
     return false
     
