@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0050-powx-n) |
+| [0367-valid-perfect-square](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0944-smallest-range-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0944-smallest-range-i) |
 | [3606-minimum-element-after-replacement-with-digit-sum](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3606-minimum-element-after-replacement-with-digit-sum) |
 ## Recursion
@@ -47,5 +48,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0367-valid-perfect-square](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 <!---LeetCode Topics End-->
