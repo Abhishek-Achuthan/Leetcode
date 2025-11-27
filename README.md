@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0944-smallest-range-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0944-smallest-range-i) |
 | [0978-valid-mountain-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0978-valid-mountain-array) |
 | [1127-last-stone-weight](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1127-last-stone-weight) |
+| [1232-check-if-it-is-a-straight-line](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1232-check-if-it-is-a-straight-line) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3606-minimum-element-after-replacement-with-digit-sum](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3606-minimum-element-after-replacement-with-digit-sum) |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0050-powx-n) |
 | [0367-valid-perfect-square](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0944-smallest-range-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0944-smallest-range-i) |
+| [1232-check-if-it-is-a-straight-line](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1232-check-if-it-is-a-straight-line) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3606-minimum-element-after-replacement-with-digit-sum](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3606-minimum-element-after-replacement-with-digit-sum) |
 ## Recursion
@@ -54,4 +56,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0367-valid-perfect-square](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0704-binary-search](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0704-binary-search) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
+## Geometry
+|  |
+| ------- |
+| [1232-check-if-it-is-a-straight-line](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1232-check-if-it-is-a-straight-line) |
 <!---LeetCode Topics End-->
