@@ -8,7 +8,7 @@ var reverseVowels = function(s) {
     let left = 0;
     let right = s.length-1;
     while(left<right) {
-        if(vowels.has(s[left])&& vowels.has(arr[right])) {
+        if(vowels.has(arr[left])&& vowels.has(arr[right])) {
             let temp =0;
             temp = arr[left];
             arr[left] = arr[right];
