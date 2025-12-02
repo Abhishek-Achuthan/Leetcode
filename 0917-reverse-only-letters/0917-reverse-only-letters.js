@@ -6,15 +6,15 @@ var reverseOnlyLetters = function(s) {
     const splited = s.split('');
     let left = 0;
     let right = splited.length-1;
-    const re = /[A-Za-z]/;
+    const alphabets='abcdefghijklmnopqrstuvwxyz';
     while(left<right) {
-        if(splited[left].match(re) && splited[right].match(re)) {
+        if(alphabets.includes(splited[left].toLowerCase())&& alphabets.includes(splited[right].toLowerCase())) {
            [splited[left],splited[right]] = [splited[right],splited[left]];
         left++
         right--
-        }else if(!splited[left].match(re)) {
+        }else if(!alphabets.includes(splited[left].toLowerCase())) {
             left++;
-        }else if(!splited[right].match(re)){
+        }else if(!alphabets.includes(splited[right].toLowerCase())){
             right--
         }
     };
