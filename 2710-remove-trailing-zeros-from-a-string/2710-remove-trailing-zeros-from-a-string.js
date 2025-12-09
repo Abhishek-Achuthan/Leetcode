@@ -3,12 +3,10 @@
  * @return {string}
  */
 var removeTrailingZeros = function(num) {
-    let nums = num.split('').map(Number).reverse();
-
-    while (nums[0] === 0) {
-        nums.shift();
+    let i = num.length - 1;
+    while (i >= 0 && num[i] === '0') {
+        i--;
     }
-
-    return nums.reverse().join('');
+    return num.slice(0, i + 1);
     
 };
