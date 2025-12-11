@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0345-reverse-vowels-of-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0520-detect-capital](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0520-detect-capital) |
+| [0521-longest-uncommon-subsequence-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0521-longest-uncommon-subsequence-i) |
 | [0551-student-attendance-record-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0551-student-attendance-record-i) |
 | [0782-jewels-and-stones](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0917-reverse-only-letters](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0917-reverse-only-letters) |
