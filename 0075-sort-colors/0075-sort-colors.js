@@ -4,22 +4,18 @@
  */
 var sortColors = function(nums) {
     let left = 0;
-    let mid = 0
-    let right = nums.length-1;
+    let mid = 0;
+    let right = nums.length - 1;
 
-    while(mid<=right){
-        if(nums[mid] === 0) {
-            let temp = nums[mid];
-            nums[mid] = nums[left];
-            nums[left] = temp;
+    while (mid <= right) {
+        if (nums[mid] === 0) {
+            [nums[left], nums[mid]] = [nums[mid], nums[left]];
             left++;
             mid++;
-        }else if(nums[mid] ===2) {
-            let temp = nums[mid];
-            nums[mid] = nums[right];
-            nums[right] = temp;
+        } else if (nums[mid] === 2) {
+            [nums[mid], nums[right]] = [nums[right], nums[mid]];
             right--;
-        }else if(nums[mid] ===1 ){
+        } else {
             mid++;
         }
     }
