@@ -4,9 +4,7 @@
  * @return {number[][]}
  */
 var fourSum = function (nums, target) {
-
     nums.sort((a, b) => a - b);
-
     let result = [];
     for (let i = 0; i < nums.length; i++) {
         if (i > 0 && nums[i - 1] === nums[i]) {
