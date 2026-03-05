@@ -6,11 +6,11 @@
 var fourSum = function (nums, target) {
     nums.sort((a, b) => a - b);
     let result = [];
-    for (let i = 0; i < nums.length; i++) {
+    for (let i = 0; i < nums.length-3; i++) {
         if (i > 0 && nums[i - 1] === nums[i]) {
             continue;
         }
-        for (let j = i + 1; j < nums.length; j++) {
+        for (let j = i + 1; j < nums.length-2; j++) {
             if ( j > i + 1 &&nums[j - 1] === nums[j]) {
                 continue;
             }
@@ -25,7 +25,7 @@ var fourSum = function (nums, target) {
                     while (left < right && nums[left - 1] == nums[left]) {
                         left++;
                     }
-                    while (right < nums.length - 1 && nums[right] == nums[right + 1] && left < right) {
+                    while (left < right &&nums[right] == nums[right + 1]) {
                         right--;
                     }
                 } else if (value < target) {
