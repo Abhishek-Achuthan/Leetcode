@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0944-smallest-range-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0944-smallest-range-i) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
+| [0977-squares-of-a-sorted-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [0978-valid-mountain-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0978-valid-mountain-array) |
 | [1127-last-stone-weight](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1127-last-stone-weight) |
 | [1232-check-if-it-is-a-straight-line](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1232-check-if-it-is-a-straight-line) |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0844-backspace-string-compare](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0844-backspace-string-compare) |
 | [0917-reverse-only-letters](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0917-reverse-only-letters) |
+| [0977-squares-of-a-sorted-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 ## Hash Table
 |  |
@@ -92,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0075-sort-colors) |
+| [0977-squares-of-a-sorted-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Union Find
 |  |
