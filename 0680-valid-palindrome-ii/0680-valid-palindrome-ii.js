@@ -17,13 +17,8 @@ var validPalindrome = function (s) {
     }
     while (left < right) {
         if (s[left] !== s[right]) {
-            if (isPalindrome(left + 1, right)) {
-                left++;
-            } else if (isPalindrome(left, right - 1)) {
-                right--;
-            } else {
-                return false;
-            }
+            return isPalindrome(left + 1, right) ||
+                   isPalindrome(left, right - 1);
         }
         left++;
         right--;
