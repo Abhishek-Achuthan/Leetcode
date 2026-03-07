@@ -16,8 +16,10 @@ var threeSumClosest = function(nums, target) {
             }
             if(sum > target) {
                 right--
-            }else {
+            }else if(sum < target){
                 left++;
+            }else {
+                return sum;
             }
         }
     }
