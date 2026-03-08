@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-reverse-only-letters](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0917-reverse-only-letters) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2710-remove-trailing-zeros-from-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2710-remove-trailing-zeros-from-a-string) |
+| [3794-reverse-string-prefix](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3794-reverse-string-prefix) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Two Pointers
 |  |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-reverse-only-letters](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0917-reverse-only-letters) |
 | [0977-squares-of-a-sorted-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2231-find-first-palindromic-string-in-the-array) |
+| [3794-reverse-string-prefix](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3794-reverse-string-prefix) |
 ## Hash Table
 |  |
 | ------- |
