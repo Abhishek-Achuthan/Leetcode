@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0020-valid-parentheses) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0520-detect-capital](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0520-detect-capital) |
 | [0521-longest-uncommon-subsequence-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0521-longest-uncommon-subsequence-i) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0844-backspace-string-compare](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0844-backspace-string-compare) |
 ## Monotonic Stack
