@@ -139,4 +139,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0203-remove-linked-list-elements](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0876-middle-of-the-linked-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0876-middle-of-the-linked-list) |
+## Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0098-validate-binary-search-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0098-validate-binary-search-tree) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0098-validate-binary-search-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0098-validate-binary-search-tree](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0098-validate-binary-search-tree) |
 <!---LeetCode Topics End-->
