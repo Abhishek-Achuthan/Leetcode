@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0225-implement-stack-using-queues](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0844-backspace-string-compare](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Monotonic Stack
@@ -166,4 +167,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0643-maximum-average-subarray-i) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
