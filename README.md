@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0075-sort-colors) |
 | [0128-longest-consecutive-sequence](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0219-contains-duplicate-ii](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0704-binary-search](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0704-binary-search) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0219-contains-duplicate-ii](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0782-jewels-and-stones](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0219-contains-duplicate-ii](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 ## Design
 |  |
