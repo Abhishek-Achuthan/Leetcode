@@ -3,7 +3,6 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function(s) {
-    if(s.length===1) return 1
     let left = 0;
     let right = 0;
     let set = new Set();
