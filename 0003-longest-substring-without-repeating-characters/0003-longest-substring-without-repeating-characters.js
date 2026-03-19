@@ -21,6 +21,5 @@ var lengthOfLongestSubstring = function(s) {
         }
         max = Math.max(max,set.size)
     }
-    console.log(max)
     return  max
 };
