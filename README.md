@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0125-valid-palindrome) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0520-detect-capital](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0520-detect-capital) |
 | [0521-longest-uncommon-subsequence-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0521-longest-uncommon-subsequence-i) |
 | [0551-student-attendance-record-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0551-student-attendance-record-i) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0128-longest-consecutive-sequence](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0219-contains-duplicate-ii](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0782-jewels-and-stones](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0643-maximum-average-subarray-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 ## Design
 |  |
