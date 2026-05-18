@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0219-contains-duplicate-ii](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0643-maximum-average-subarray-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0643-maximum-average-subarray-i) |
+| [0645-set-mismatch](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0645-set-mismatch) |
 | [0704-binary-search](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0704-binary-search) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0944-smallest-range-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0944-smallest-range-i) |
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0567-permutation-in-string) |
+| [0645-set-mismatch](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0645-set-mismatch) |
 | [0782-jewels-and-stones](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0075-sort-colors) |
+| [0645-set-mismatch](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0645-set-mismatch) |
 | [0977-squares-of-a-sorted-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Union Find
@@ -192,4 +195,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0645-set-mismatch](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0645-set-mismatch) |
 <!---LeetCode Topics End-->
