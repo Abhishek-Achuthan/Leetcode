@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0709-to-lower-case](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0709-to-lower-case) |
 | [0782-jewels-and-stones](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0844-backspace-string-compare](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0844-backspace-string-compare) |
+| [0859-buddy-strings](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0859-buddy-strings) |
 | [0917-reverse-only-letters](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0917-reverse-only-letters) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2231-find-first-palindromic-string-in-the-array) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0567-permutation-in-string) |
 | [0645-set-mismatch](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0645-set-mismatch) |
 | [0782-jewels-and-stones](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0782-jewels-and-stones) |
+| [0859-buddy-strings](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0859-buddy-strings) |
 | [0961-n-repeated-element-in-size-2n-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0961-n-repeated-element-in-size-2n-array) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Counting
