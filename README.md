@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-buddy-strings](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0859-buddy-strings) |
 | [0917-reverse-only-letters](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0917-reverse-only-letters) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1768-merge-strings-alternately](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2710-remove-trailing-zeros-from-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2710-remove-trailing-zeros-from-a-string) |
 | [3110-score-of-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3110-score-of-a-string) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-middle-of-the-linked-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0876-middle-of-the-linked-list) |
 | [0917-reverse-only-letters](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0917-reverse-only-letters) |
 | [0977-squares-of-a-sorted-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
+| [1768-merge-strings-alternately](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [3794-reverse-string-prefix](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3794-reverse-string-prefix) |
 ## Hash Table
