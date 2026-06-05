@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1071-greatest-common-divisor-of-strings](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1768-merge-strings-alternately](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1768-merge-strings-alternately) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2231-find-first-palindromic-string-in-the-array) |
+| [2390-removing-stars-from-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2390-removing-stars-from-a-string) |
 | [2710-remove-trailing-zeros-from-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2710-remove-trailing-zeros-from-a-string) |
 | [3110-score-of-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3110-score-of-a-string) |
 | [3794-reverse-string-prefix](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3794-reverse-string-prefix) |
@@ -150,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0844-backspace-string-compare](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [2390-removing-stars-from-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -158,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0844-backspace-string-compare](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0844-backspace-string-compare) |
+| [2390-removing-stars-from-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Greedy
 |  |
 | ------- |
