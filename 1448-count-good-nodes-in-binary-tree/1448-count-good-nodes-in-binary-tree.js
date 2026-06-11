@@ -12,12 +12,14 @@
  */
 var goodNodes = function(root) {
     let count = 0;
-    let rootNode = root.val;
 
     function findGood(highest,root) {
         if(!root) return;
-        if(root.val >= rootNode && root.val >= highest) count++;
-        if(root.val > highest) highest = root.val;
+        if(root.val >= highest) {
+            count++;
+            highest = root.val;
+        }
+        
         findGood(highest,root.left);
         findGood(highest,root.right);
     }
