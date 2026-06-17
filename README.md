@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-reverse-only-letters](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0917-reverse-only-letters) |
 | [0977-squares-of-a-sorted-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0977-squares-of-a-sorted-array) |
 | [1768-merge-strings-alternately](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/1768-merge-strings-alternately) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [3794-reverse-string-prefix](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/3794-reverse-string-prefix) |
 ## Hash Table
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0876-middle-of-the-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Tree
 |  |
 | ------- |
