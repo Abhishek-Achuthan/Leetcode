@@ -30,14 +30,14 @@ var reorderList = function(head) {
     }
     current = head;
     n%2===0? prev.next = null : slow.next = null;
-    let half =Math.floor(n/2);
+    let half = Math.floor(n/2);
     while(half > 0){
         let next = current.next;
         current.next = stack.pop();
         current = current.next;
         current.next = next;
         if(next !== null) {
-            current = next;
+            current = current.next;
         }
         half--
     }
