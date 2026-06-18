@@ -9,43 +9,37 @@
  * @param {ListNode} head
  * @return {number}
  */
-var pairSum = function(head) {
-    let n = 0;
-    let current = head;
+var pairSum = function (head) {
+   let slow = head;
+   let fast = head
 
-    while(current) {
-        current = current.next;
-        n++
-    } 
-    let middle = n/2;
-    let prev = null;
-    let next = null;
-    let checker = 0
-    current = head;
+   while(fast && fast.next) {
+      slow = slow.next;
+      fast = fast.next.next;
+   }
 
-    while(current){
-        if(checker >= middle){
-            next = current.next;
-            current.next = prev;
-            prev = current;
-            current = next;
-            checker ++
-        }else{
-        current = current.next
-        checker ++
-        }
-    }
-    let prevHead = prev;
-    let normalHead = head;
+   let current = slow;
+   let prev = null;
 
-    let maxSum = 0;
-    while(prevHead){
-        let sum = prevHead.val + normalHead.val;
-        if(sum>maxSum) {
-            maxSum = sum;
-        }
-        prevHead = prevHead.next;
-        normalHead = normalHead.next;
-    }    
-    return maxSum
+   while(current) {
+     let next  = current.next;
+     current.next = prev;
+     prev = current;
+     current = next
+   }
+
+   let leftHead = head;
+   let rightHead = prev;
+   let max = 0;
+
+   while(rightHead) {
+    let sum = leftHead.val + rightHead.val
+      if(sum > max) {
+        max = sum;
+      }
+      rightHead = rightHead.next
+      leftHead = leftHead.next
+   }
+   return max
+
 };
