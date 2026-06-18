@@ -29,11 +29,7 @@ var reorderList = function(head) {
         current = current.next;
     }
     current = head;
-    if(n%2===0) {
-        prev.next =null;
-    }else {
-        slow.next = null;
-    }
+    n%2===0? prev.next = null : slow.next = null;
     let half =Math.floor(n/2);
     while(half > 0){
         let next = current.next;
