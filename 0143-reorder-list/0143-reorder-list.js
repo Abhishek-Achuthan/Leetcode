@@ -10,35 +10,36 @@
  * @return {void} Do not return anything, modify head in-place instead.
  */
 var reorderList = function(head) {
-    let fast = head;
-    let slow = head;
-    let prev= null;
-    let n = 0;
-    if(!head||!head.next||!head.next.next) return
+   let fast = head;
+   let slow = head;
+   
+   while(fast && fast.next) {
+     slow = slow.next;
+     fast = fast.next.next;
+   }
 
-    while(fast && fast.next) {
-        prev = slow;
-        slow = slow.next;
-        fast = fast.next.next;
-    }
-    let stack = [];
-    let current = head;
-    while(current) {
-        n+=1;
-        stack.push(current)
-        current = current.next;
-    }
-    current = head;
-    n%2===0? prev.next = null : slow.next = null;
-    let half = Math.floor(n/2);
-    while(half > 0){
-        let next = current.next;
-        current.next = stack.pop();
-        current = current.next;
-        current.next = next;
-        if(next !== null) {
-            current = current.next;
-        }
-        half--
-    }
+   let prev = null;
+   let curr = slow;
+   while(curr) {
+     let nextNode = curr.next;
+     curr.next = prev
+     prev = curr;
+     curr = nextNode;
+   };
+
+   let first = head;
+   let second = prev;
+
+   while(second.next) {
+    let temp1 = first.next;
+    let temp2 = second.next;
+
+    first.next = second
+    second.next = temp1;
+
+    first = temp1;
+    second = temp2;
+   }
+
+   
 };
