@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0050-powx-n) |
+| [0143-reorder-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0394-decode-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0394-decode-string) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0125-valid-palindrome) |
+| [0143-reorder-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0143-reorder-list) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0567-permutation-in-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0143-reorder-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0143-reorder-list) |
 | [0225-implement-stack-using-queues](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0394-decode-string) |
@@ -179,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0143-reorder-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0328-odd-even-linked-list) |
