@@ -10,36 +10,20 @@
  * @return {number}
  */
 var pairSum = function (head) {
-   let slow = head;
-   let fast = head
+  let half = [];
+  let slow = fast = head;
 
-   while(fast && fast.next) {
-      slow = slow.next;
-      fast = fast.next.next;
-   }
+  while(fast && fast.next) {
+    half.push(slow.val)
+    slow = slow.next;
+    fast = fast.next.next
+  }
+  let res = 0;
 
-   let current = slow;
-   let prev = null;
-
-   while(current) {
-     let next  = current.next;
-     current.next = prev;
-     prev = current;
-     current = next
-   }
-
-   let leftHead = head;
-   let rightHead = prev;
-   let max = 0;
-
-   while(rightHead) {
-    let sum = leftHead.val + rightHead.val
-      if(sum > max) {
-        max = sum;
-      }
-      rightHead = rightHead.next
-      leftHead = leftHead.next
-   }
-   return max
+  while(slow) {
+    res = Math.max(res,half.pop()+ slow.val);
+    slow = slow.next;
+  }
+  return res;
 
 };
