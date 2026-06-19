@@ -12,20 +12,18 @@
  * @return {boolean}
  */
 var leafSimilar = function(root1, root2) {
-    let leafNode1 = [];
-    let leafNode2 = [];
+   let firstLeafs = [];
+   let secondLeafs = [];
 
-    function traverse(root,arr) {
-        if(!root) return;
-        if(!root.left && !root.right) arr.push(root.val);
-        traverse(root.left,arr);
-        traverse(root.right,arr);
-    }
+   function checkLeafs(root,arr) {
+       if(!root) return;
+       if(!root.left && !root.right) arr.push(root.val);
+       checkLeafs(root.left,arr);
+       checkLeafs(root.right,arr);
+   }
 
-    traverse(root1,leafNode1);
-    traverse(root2,leafNode2);
-    let str1 =leafNode1.toString();
-    let str2 =leafNode2.toString();
-    return str1 === str2
-    
+   checkLeafs(root1,firstLeafs)
+   checkLeafs(root2,secondLeafs)
+
+   return firstLeafs.toString() === secondLeafs.toString()
 };
