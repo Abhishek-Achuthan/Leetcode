@@ -6,20 +6,14 @@
  * @return {boolean}
  */
 var validPath = function(n, edges, source, destination) {
-    let graph = new Map();
     if(source === destination) return true
-    
-    for(let el of edges){
-        let [v1,v2] = el;
+    let graph = Array.from({length:n},() => []);
 
-       if(!graph.has(v1)){
-         graph.set(v1,[]);
-       }
-       graph.get(v1).push(v2);
-       if(!graph.has(v2)) {
-        graph.set(v2,[])
-       }
-       graph.get(v2).push(v1)
+    
+    for(let i=0; i<edges.length ; i++){
+        let [v1,v2] = edges[i];
+        graph[v1].push(v2);
+        graph[v2].push(v1);
     };
     
     let visited = new Set();
@@ -29,7 +23,7 @@ var validPath = function(n, edges, source, destination) {
 
         while(queue.length > 0) {
             let vertex = queue.shift();
-            let neighbour = graph.get(vertex);
+            let neighbour = graph[vertex]
             for(let neighbours of neighbour) {
                 if(!visited.has(neighbours)) {
                     queue.push(neighbours)
