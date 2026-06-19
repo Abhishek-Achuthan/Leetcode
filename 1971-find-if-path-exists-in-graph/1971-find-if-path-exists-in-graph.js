@@ -16,23 +16,22 @@ var validPath = function(n, edges, source, destination) {
         graph[v2].push(v1);
     };
     
-    let visited = new Set();
-    function tracePath(source) {
+        let visited = new Array(n).fill(false);
         let queue = [source];
-        visited.add(source);
+        let head = 0;
+        visited[source] = true;
 
-        while(queue.length > 0) {
-            let vertex = queue.shift();
+        while(head < queue.length ) {
+            let vertex = queue[head++];
             let neighbour = graph[vertex]
             for(let neighbours of neighbour) {
-                if(!visited.has(neighbours)) {
+                if(!visited[neighbours]) {
+                    if(neighbours === destination) return true;
+                    visited[neighbours] = true
                     queue.push(neighbours)
-                    visited.add(neighbours)
                 }
             }
         }
-    }
-    tracePath(source);
-    return visited.has(destination)
+    return false
 
 };
