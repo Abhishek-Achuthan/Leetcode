@@ -25,5 +25,15 @@ var leafSimilar = function(root1, root2) {
    checkLeafs(root1,firstLeafs)
    checkLeafs(root2,secondLeafs)
 
-   return firstLeafs.toString() === secondLeafs.toString()
+   if(firstLeafs.length !== secondLeafs.length) {
+    return false
+   }
+
+   for(let i = 0; i< firstLeafs.length ; i++) {
+    if(firstLeafs[i] !== secondLeafs[i]) {
+        return false
+    }
+   }
+
+   return true;
 };
