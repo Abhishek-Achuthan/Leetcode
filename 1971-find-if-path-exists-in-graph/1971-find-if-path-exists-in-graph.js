@@ -6,32 +6,30 @@
  * @return {boolean}
  */
 var validPath = function(n, edges, source, destination) {
-    if(source === destination) return true
-    let graph = Array.from({length:n},() => []);
+     if(source === destination) return true;
+     let graph = Array.from({length : n},()=> []);
 
-    
-    for(let i=0; i<edges.length ; i++){
+     for(let i=0; i<edges.length ; i++) {
         let [v1,v2] = edges[i];
         graph[v1].push(v2);
-        graph[v2].push(v1);
-    };
-    
-        let visited = new Array(n).fill(false);
-        let queue = [source];
-        let head = 0;
-        visited[source] = true;
+        graph[v2].push(v1)
+     }
+     
+     let visited = new Array(n).fill(false);
+     let head = 0;
+     let queue = [source];
+     visited[source] = true;
 
-        while(head < queue.length ) {
-            let vertex = queue[head++];
-            let neighbour = graph[vertex]
-            for(let neighbours of neighbour) {
-                if(!visited[neighbours]) {
-                    if(neighbours === destination) return true;
-                    visited[neighbours] = true
-                    queue.push(neighbours)
-                }
+     while(head < queue.length) {
+        let vertex = queue[head++];
+        let neighbours = graph[vertex]
+        for(let neighbour of neighbours){
+        if(neighbour === destination) return true
+            if(!visited[neighbour]) {
+                visited[neighbour]=true;
+                queue.push(neighbour);
             }
         }
-    return false
-
+     }
+     return false
 };
