@@ -5,10 +5,11 @@
 var canVisitAllRooms = function(rooms) {
     let queue = [0];
     let visited = Array.from({length : rooms.length},() => false);
-
     visited[0] = true;
-    while(queue.length > 0) {
-        let vertex = queue.shift();
+    let head = 0;
+    while(head < queue.length) {
+        let vertex = queue[head]
+        head++
         for(let el of rooms[vertex]) {
             if(!visited[el]) {
                 queue.push(el);
