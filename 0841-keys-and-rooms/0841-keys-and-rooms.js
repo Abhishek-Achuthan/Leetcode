@@ -5,7 +5,9 @@
 var canVisitAllRooms = function(rooms) {
     let queue = [0];
     let visited = Array.from({length : rooms.length},() => false);
+    let visitedCount = 0;
     visited[0] = true;
+    visitedCount ++;
     let head = 0;
     while(head < queue.length) {
         let vertex = queue[head]
@@ -13,10 +15,11 @@ var canVisitAllRooms = function(rooms) {
         for(let el of rooms[vertex]) {
             if(!visited[el]) {
                 queue.push(el);
+                visitedCount++;
                 visited[el] = true;
             }
         }
     }
 
-    return visited.every(Boolean)
+    return visitedCount === rooms.length
 };
