@@ -18,5 +18,5 @@ var canVisitAllRooms = function(rooms) {
         }
     }
 
-    return visited.includes(false) ? false:true;
+    return visited.every(Boolean)
 };
