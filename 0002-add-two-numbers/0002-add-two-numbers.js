@@ -18,7 +18,7 @@ var addTwoNumbers = function (l1, l2) {
     let temp2 = l2
     while (temp !== null || temp2 !== null) {
         let sum =0
-        let didgit;
+        let digit;
         if (temp === null) {
             sum = 0 + temp2.val + carry
             temp2 = temp2.next;
