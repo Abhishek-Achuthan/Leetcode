@@ -17,34 +17,26 @@ var addTwoNumbers = function (l1, l2) {
     let temp = l1
     let temp2 = l2
     while (temp !== null || temp2 !== null) {
+        let sum =0
+        let didgit;
         if (temp === null) {
             sum = 0 + temp2.val + carry
             temp2 = temp2.next;
-            digit = sum % 10;
-            carry = Math.floor(sum / 10);
-            sumList.next = new ListNode(digit);
-            sumList = sumList.next
         } else if (temp2 === null) {
             sum = temp.val + 0 + carry
             temp = temp.next
-            digit = sum % 10;
-            carry = Math.floor(sum / 10);
-            sumList.next = new ListNode(digit);
-            sumList = sumList.next
         } else {
             sum = temp.val + temp2.val + carry
-            digit = sum % 10;
-            carry = Math.floor(sum / 10);
-            sumList.next = new ListNode(digit);
-            sumList = sumList.next
             temp = temp.next
             temp2 = temp2.next
         }
+        digit = sum % 10;
+        carry = Math.floor(sum / 10);
+        sumList.next = new ListNode(digit);
+        sumList = sumList.next
     }
-    if(carry > 0){
+    if (carry > 0) {
         sumList.next = new ListNode(carry)
     }
-
-    console.log(sumHead);
     return sumHead.next
 };
