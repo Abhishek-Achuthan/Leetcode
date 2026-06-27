@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0050-powx-n) |
 | [0367-valid-perfect-square](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0367-valid-perfect-square) |
 | [0944-smallest-range-i](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0944-smallest-range-i) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0203-remove-linked-list-elements) |
@@ -185,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/Abhishek-Achuthan/Leetcode/tree/master/0143-reorder-list) |
