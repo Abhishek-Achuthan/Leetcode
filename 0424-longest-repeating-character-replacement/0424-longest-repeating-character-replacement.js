@@ -4,23 +4,27 @@
  * @return {number}
  */
 var characterReplacement = function(s, k) {
-    let maxFreq = 0;
-    let maxLength = 0;
-    let left =0;
+    let left = 0;
     let right = 0;
-    let freq = new Map();
+    let maxLength = 0;
+    let maxFrequency = 0;
+    const frequencyMap = new Map();
+
     while(right < s.length){
-      freq.set(s[right] , (freq.get(s[right]) || 0) + 1);
+        let currentChar = s[right];
+        
+        frequencyMap.set(currentChar,(frequencyMap.get(currentChar)??0)+1);
 
-      maxFreq = Math.max(maxFreq,freq.get(s[right]));
+        maxFrequency = Math.max(maxFrequency,frequencyMap.get(currentChar));
 
-      while((right-left+1) - maxFreq > k) {
-         freq.set(s[left],freq.get(s[left])-1);
-         left++;
-      }
-      maxLength = Math.max(maxLength,right-left+1);
+        while((right-left+1)-maxFrequency > k){
+           let leftChar = s[left];
+           frequencyMap.set(leftChar,(frequencyMap.get(leftChar)??0)-1);
+           left++;
+        }
 
-      right++
+        maxLength = Math.max(maxLength,(right-left+1));
+        right++;
     }
-    return maxLength
-}
+    return maxLength;
+};
